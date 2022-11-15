@@ -149,6 +149,15 @@ li{
 #nav li:hover{
   background-color: #2b819e;
 }
+.slider div{
+  background-color: #256D85;
+  margin: 0;
+}
+.bx-wrapper {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
 @media only screen and (min-width: 768px){
   #nav li:hover{
     background-color: #06283D;
