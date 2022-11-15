@@ -149,7 +149,7 @@ li{
 #nav li:hover{
   background-color: #2b819e;
 }
-@media (min-width: 700px){
+@media only screen and (min-width: 768px){
   #nav li:hover{
     background-color: #06283D;
   }
