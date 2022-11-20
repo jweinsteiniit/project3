@@ -1,6 +1,15 @@
 body{
   background-color: #256D85;
 }
+#map{
+  position: absolute;
+  width: 60%;
+  height: calc(70vh);
+  right: 20%;
+  top: 14%;
+  border: solid white 5px;
+  border-radius: 10px;
+}
 p,h1,h2,h3,h4,ul {
   font-family: Jost, sans-serif;
   color: #DFF6FF;
@@ -186,8 +195,23 @@ li{
   #resumebody li{
     text-align: center;
   }
+  section{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+  }
+  #resumebody ul{
+    width: 85%;
+    background-color: #2b819e;
+    margin: auto;
+    border-radius: 1em;
+  }
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 730px){
+  section{
+    float: none;
+    width: auto;
+  }
   #resumebody li{
     text-align: left;
   }
